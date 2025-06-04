@@ -20,7 +20,7 @@ echo -e '#!/bin/bash\necho "Hello Netology"' > 13.sh
 cat <<EOF > Dockerfile
 FROM continuumio/miniconda3:latest
 
-WORKDIR /app
+WORKDIR /homework
 
 COPY 13.sh .
 
