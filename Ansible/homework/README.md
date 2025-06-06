@@ -6,8 +6,8 @@ from pathlib import Path
 inventory_content = ```
 [netology-ml]
 host1 ansible_host=192.168.1.101 ansible_user=ansible
-host2 ansible_host=192.168.1.102 ansible_user=ansible
-```
+host2 ansible_host=192.168.1.102 ansible_user=ansible```
+
 
 # Содержимое playbook
 playbook_content = ```\
