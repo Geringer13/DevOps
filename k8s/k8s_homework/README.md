@@ -50,7 +50,7 @@ Etcd node (может быть отдельной) - Хранит конфигу
 
 ## МАНИФЕСТ
 
-
+``` yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -75,3 +75,4 @@ spec:
           image: tomcat:8.5.69
           ports:
             - containerPort: 8080
+```
